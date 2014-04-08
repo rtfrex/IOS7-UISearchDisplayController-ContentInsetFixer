@@ -8,7 +8,7 @@ An UISearchDisplayControll extension to fix iOS7 search result tableview content
 How to use :
 
 
-1). Add file in "Classes" to your project
+1). Add files in "Classes" to your project
 
 2). Call contentInsetFixWithAnimate / contentInsetFix right after UISearchDisplayController has been initialled
 
