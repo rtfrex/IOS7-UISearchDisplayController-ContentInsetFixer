@@ -13,7 +13,7 @@
 
 - (void)contentInsetFix
 {
-    // Onyl for iOS7 or above
+    // Only for iOS7 or above
     if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1) return;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setInset) name:UIKeyboardDidHideNotification object:nil];
@@ -21,7 +21,7 @@
 
 - (void)contentInsetFixWithAnimate
 {
-    // Onyl for iOS7 or above
+    // Only for iOS7 or above
     if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1) return;
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setInsetWithAnimate) name:UIKeyboardDidHideNotification object:nil];
@@ -29,7 +29,7 @@
 
 - (void)stopContentInsetFix
 {
-    // Onyl for iOS7 or above
+    // Only for iOS7 or above
     if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1) return;
     
     [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardDidHideNotification object:nil];
