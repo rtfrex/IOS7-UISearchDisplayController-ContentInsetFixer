@@ -10,7 +10,7 @@ How to use :
 
 1). Add file in "Classes" to your project
 
-2). Call contentInsetFixWithAnimate / contentInsetFix after UISearchDisplayController has been initialled
+2). Call contentInsetFixWithAnimate / contentInsetFix right after UISearchDisplayController has been initialled
 
 3). Stop the fixer by calling stopContentInsetFix (Optional)
 
